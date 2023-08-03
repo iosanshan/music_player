@@ -1,5 +1,5 @@
 :root {
-    
+    --background-color: #37caec;
     --primary-color: #2a93d5;
     --text-color: #333;
   }
@@ -11,7 +11,7 @@
   }
   
   body {
-    background-color: #f5f5f5;
+    background-image: linear-gradient(to left bottom, var(--primary-color), #fff);
   }
   
   html {
@@ -135,7 +135,7 @@
   .progress {
     appearance: none;
     height: 6px;
-    background: #add9d8;
+    background: #cdebf6;
     outline: none;
     opacity: 0.7;
     -webkit-transition: 0.2s;
@@ -165,7 +165,8 @@
   /* PLAYLIST */
   .playlist {
     margin-top: 420px;
-    padding: 12px 12px 0 12px;
+    padding: 12px 12px 1px 12px;
+    background-color: #cdebf6;
   }
   
   .song {
